@@ -33,9 +33,19 @@ menu_responsive.onclick = function () {
         navBar.classList.toggle("active");
       };
 
-let menu_opciones = document.querySelectorAll(".opcionmenu");
+let menu_opciones = document.querySelector(".opcionmenu");
+let menu_opciones2 = document.querySelector(".opcionmenu2");
+let menu_opciones3 = document.querySelector(".opcionmenu3");
       
       menu_opciones.onclick = function () {
+              navBar = document.querySelector(".navbar");
+              navBar.classList.toggle("active");
+            };
+      menu_opciones2.onclick = function () {
+              navBar = document.querySelector(".navbar");
+              navBar.classList.toggle("active");
+            };
+      menu_opciones3.onclick = function () {
               navBar = document.querySelector(".navbar");
               navBar.classList.toggle("active");
             };
