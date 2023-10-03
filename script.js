@@ -34,8 +34,8 @@ menu_responsive.onclick = function () {
       };
 
 let menu_opciones = document.querySelector(".opcionmenu");
-let menu_opciones2 = document.querySelector(".opcionmenu2");
-let menu_opciones3 = document.querySelector(".opcionmenu3");
+let menu_opciones2 = document.querySelector(".opcionmenub");
+let menu_opciones3 = document.querySelector(".opcionmenuc");
       
       menu_opciones.onclick = function () {
               navBar = document.querySelector(".navbar");
