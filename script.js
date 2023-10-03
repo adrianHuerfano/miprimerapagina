@@ -33,7 +33,7 @@ menu_responsive.onclick = function () {
         navBar.classList.toggle("active");
       };
 
-let menu_opciones = document.querySelector(".opcionmenu");
+let menu_opciones = document.querySelectorAll(".opcionmenu");
       
       menu_opciones.onclick = function () {
               navBar = document.querySelector(".navbar");
