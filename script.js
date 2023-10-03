@@ -35,7 +35,7 @@ menu_responsive.onclick = function () {
 
 let menu_opciones = document.querySelector(".opcionmenu");
       
-      menu_responsive.onclick = function () {
+      menu_opciones.onclick = function () {
               navBar = document.querySelector(".navbar");
               navBar.classList.toggle("active");
             };
